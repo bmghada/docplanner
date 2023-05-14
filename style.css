@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.nav-logo{
+    width: 268px;
+    height: 33px;
+}
+*{
+    font-family: Roboto;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    background-color: white;
+    
+    #nav-about{
+        color: #00B39B;
+    }
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-family: Roboto;
+}
+.nav-color:hover{
+    color: #00B39B;
+    cursor: pointer;
+
+}
+.nav-depart{
+    list-style: none;
+    position: absolute;
+    left: -40px;
+    margin-top: 10px;
+    box-shadow: -4px -4px 8px -1px rgba(0,0,0,0.71) ;
+    -webkit-box-shadow; -4px -4px 8px -1px rgba(0,0,0,0.71);
+    -moz-box-shadow; -4px -4px 8px -1px rgba(0,0,0,0.71);
+    display: none;
+    width: 200px;
+}
+  .posi{
+   position: relative;
+  }
+   .posi:hover.nav-depart{
+    display: flex;
+    flex-direction: column;
+   }
+   span{
+    display: flex;
+    justify-content: center;
+   }
+.logo{
+  padding-top: 100px;
+}
+
+   img{
+    width: 40px;
+   }
+   h1{
+    display:block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #00B39B;
+    
+   }
+   p{
+    display:inline-flex;
+    font-size: 16px;
+    font-family:Roboto,Arial,sans-serif;
+    text-decoration: none solid rbg(116,116,116);
+    height: 168px;
+    width: 311px;
+    color: #747474;
+    margin: 13px 13px;
+    text-align: justify;
+   }
+     .flex{
+        display: flex;
+     }
+    .services{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .service-1{
+        background-color: #00ccb1;
+        padding: 15px;
+        border-radius: 10px;
+        width: 100%;
+    } 
+     .patients p,.doctors p,.clinics p{
+      font-family: Roboto,sans-serif;
+      font-size: 20px;
+      color: #fff;
+      font-weight: lighter;
+     } 
+     .selection{
+        margin-top: 40px;
+     }
+     .selection select,.selection3 select{
+      font-size: 18px;
+      color: #fff;
+      text-decoration: underline;
+      border: none;
+      background-color: transparent;
+     }
+     .service-2{
+       background-color: #3d83df;
+       padding: 15px;
+       border-radius: 10px;
+       width: 100%;
+
+     }
+     .doctors h2,.patients h2,.clinics h2{
+       font-size: 20px; 
+       font-weight: inherit;
+       color: #fff;
+       font-family: Roboto,sans-serif;
+     }
+     .service-3{
+        background-color: black;
+        padding: 15px;
+        border-radius: 10px;
+       width: 100%;
+
+     }
+     .selection3{
+      display: flex;
+      flex-direction: column;
+    
+
+     }
+      select option{
+        color: black;
+      }
+      section.company{
+        display: flex;
+        flex-direction: column;
+
+      }
+       .container h3 {
+        color: #00B39B;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+        padding-top: 5px;
+        line-height: 30px;
+
+       }
